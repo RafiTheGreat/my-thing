@@ -1,0 +1,78 @@
+#contaner{
+width: 100%;
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+flex-direction: column;
+
+gap :30px
+  
+ 
+
+}
+.items:nth-child(n) {
+    border: 3px solid;
+    border-radius: 30px;
+    width: 80%; /* Use percentage to make it responsive */
+    max-width: 500px; /* Maximum width */
+    height: auto; /* Allow height to adjust based on content */
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5; /* Adjust line height for better readability */
+    font-size: 2rem; /* Use relative units for font size */
+    font-family: sans-serif;
+    background: linear-gradient(220deg, #003285, #2A629A, #FF7F3E, #FFDA78);
+    min-width: 300px;/* Minimum width to ensure readability */
+    overflow-y: hidden;
+    max-height:100%;
+    
+    
+}
+h1{
+     text-align: center;
+    
+     margin: 0%;
+    line-height: 300px;
+    font-size: 60px;
+}
+p{
+    font-size: 1.5rem; /* Use relative units for font size */
+    line-height: 1.6; /* Adjust line height for better readability */
+    letter-spacing: 0.05em; /* Adjust space between characters */
+    word-spacing: 0.1em; /* Adjust space between words */
+    margin: 10px 0; /* Add some margin for spacing */
+    font-family: sans-serif; /* Set a font family */
+}
+ body{
+
+    margin: 0%;
+ }
+
+.coloer-body{
+    background: linear-gradient(90deg,#711DB0,#C21292,#EF4040,#FFA732);
+
+}
+.color-body-dark{
+    background: linear-gradient(90deg,#000B58,#003161,#006A67,#FFF4B7);
+}
+ {
+    
+}
+#swich[type="checkbox"]:checked{
+height: 40px;
+width: 80px;
+ appearance: none;
+ background: linear-gradient(90deg,#4c31d3,#ee38ff);
+}   
+#swich[type="checkbox"]{
+    height: 40px;
+    width: 80px;
+     appearance: none;
+     background: linear-gradient(90deg,#ee38ff,#4c31d3);
+     border: none;
+     border-radius: 20px;
+    
+}
+
+
