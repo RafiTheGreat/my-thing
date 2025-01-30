@@ -11,7 +11,7 @@ gap :30px
  
 
 }
-.items:nth-child(n) {
+.items  {
     border: 3px solid;
     border-radius: 30px;
     width: 80%; /* Use percentage to make it responsive */
@@ -22,13 +22,18 @@ gap :30px
     line-height: 1.5; /* Adjust line height for better readability */
     font-size: 2rem; /* Use relative units for font size */
     font-family: sans-serif;
-    background: linear-gradient(220deg, #003285, #2A629A, #FF7F3E, #FFDA78);
     min-width: 300px;/* Minimum width to ensure readability */
     overflow-y: hidden;
     max-height:100%;
-    
-    
 }
+.the-items-coloer{
+    background: linear-gradient(220deg, #003285, #2A629A, #FF7F3E, #FFDA78);
+}    
+.the-items-dark{
+    background: linear-gradient(220deg, #03001C, #301E67, #5B8FB9, #B6EADA);
+    color: whitesmoke;
+}  
+    
 h1{
      text-align: center;
     
